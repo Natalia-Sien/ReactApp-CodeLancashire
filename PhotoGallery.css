@@ -1,0 +1,37 @@
+.photo-gallery {
+    padding: 20px;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .photo-gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    gap: 15px; 
+  }
+  
+  .photo-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .photo-item:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .photo-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .photo-caption {
+    padding: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
